@@ -1,0 +1,369 @@
+﻿
+.Show-del{
+    width: 1200px;
+    height: 130px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.Show-del ul{
+    margin-left: 180px;
+}
+.Show-del ul li{
+    margin-left: 10px;
+    float: left;
+    transition: all 0.3s linear;
+}
+.Show-del ul li:hover{
+    animation:changeClear 0.5s linear 1 both;
+}
+.Show-del ul li img{
+    width: 330px;
+    height: 130px;
+}
+@keyframes changeClear {
+    0%{
+        opacity: 0.8;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.h-shop{
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+    border-bottom: 1px solid #e5e5e5;
+}
+.h-shop-1{
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    margin-left: -80px;
+    background-color: white;
+}
+.h-shop-1 p{
+    text-align: center;
+    color: #333333;
+    font-size: 14px;
+}
+.h-shop-1 h2{
+    text-align: center;
+}
+.h-shop-1 h2 a{
+    color: black;
+}
+.container{
+    width: 100%;
+    height: 400px;
+    margin:0 auto;
+    position: relative;
+    overflow: hidden;
+}
+#list{width: 700%;
+    height: 400px;
+    position: absolute;
+}
+#list li{
+    display: block;
+    width: 14.285715%;
+    height: 400px;
+    float: left;
+}
+.bg1{
+    background: url("../images/baner1.jpg") no-repeat center center;
+}
+.bg2{
+    background: url("../images/baner2.jpg") no-repeat center top;
+}
+.bg3{
+    background: url("../images/baner3.jpg") no-repeat center top;
+}
+.bg4{
+    background: url("../images/baner4.jpg") no-repeat center top;
+}
+.bg5{
+    background: url("../images/baner5.jpg") no-repeat center top;
+}
+#left{
+    position: absolute;
+    width: 40px;
+    height: 100px;
+    top:50%;
+    margin-top: -50px;
+    opacity: 0.7;
+    display: none;
+    left:20px;
+    background: url("../images/left.jpg") no-repeat 0 0;
+}
+#right{
+    position: absolute;
+    width: 40px;
+    height: 100px;
+    top:50%;
+    margin-top: -50px;
+    opacity: 0.7;
+    display: none;
+    right: 20px;
+    background: url("../images/right.jpg") no-repeat 0 0;
+}
+.btns{
+    width: 100px;
+    height: 10px;
+    position: absolute;
+    bottom: 20px;
+    left: 42%;
+}
+.btns span{
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-right: 8px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    width: 10px;
+    height: 10px;
+    float: left;
+}
+.btns .on{
+    background: rgb(227,20,54);
+}
+.container:hover #left{
+    display: block;
+}
+.container:hover #right{
+    display: block;
+}
+#left:hover{
+    opacity: 1;
+}
+#right:hover{
+    opacity:1;
+}
+.Section{
+    width: 1200px;
+    height: 360px;
+    margin: 0 auto;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.S-part1{
+    width: 1200px;
+    height: 30px;
+}
+.S-part1 ul li a{
+    color: #999999;
+}
+.S-part1 ul li a:hover{
+    color:#f47b2b ;
+}
+.S-part1 ul{
+    width: 100%;
+    height: 30px;
+}
+.S-part1 ul li{
+    /*float: left;
+    padding-right: 20px;*/
+    line-height: 30px;
+}
+.S-L{
+     font-size: 16px;
+     float: left;
+    color: #333333;
+}
+.S-R{
+     float: right;
+     font-size: 14px;
+}
+/*.S-part1 ul li:first-of-type{
+    font-size: 16px;
+    color: #333333;
+}
+.S-part1 ul li:last-of-type{
+    float: right;
+    padding-right: 0;
+}*/
+.S-part2{
+    width: 1200px;
+    height: 330px;
+}
+.S-part2-1{
+    width: 480px;
+    height: 330px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+.S-part2-1 img{
+    width: 480px;
+    height: 330px;
+}
+.S-part2-1 img:hover{
+    animation:changeClear 0.5s linear 1 both;
+}
+.S-part2-11{
+    width: 245px;
+    height: 85px;
+    position: absolute;
+    left: 50%;
+    margin-left: -122.5px;
+    bottom: 20px;
+    background-color: white;
+    z-index: 3;
+    opacity: 0.8;
+}
+.S-part2-11 p{
+    color: #666666;
+    text-align: center;
+}
+/*.S-part2-11 p:first-of-type{
+    margin-top: 20px;
+    font-size: 14px;
+}*/
+.first-p{
+     margin-top: 20px;
+     font-size: 14px;
+}
+.sec-p{
+     font-size: 20px;
+}
+.S-part2-2{
+    width: 240px;
+    height: 328px;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+}
+.S-part2-2:hover{
+    animation:changeClear 1s linear 1 both;
+}
+.S-part2-2 a{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #333333;
+}
+.S-part2-2 img{
+    width: 202px;
+    height: 327px;
+}
+.S-part2-2 a:nth-child(1){
+    position: absolute;
+    z-index: 2;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.S-part2-2 a span{
+    font-size: 12px;
+    color: #999999;
+}
+.S-part2-3{
+    width: 478px;
+    height: 328px;
+    overflow: hidden;
+    float: left;
+    border: 1px solid #e5e5e5;
+}
+.S-part2-3 dl{
+    width: 238px;
+    height: 163px;
+    float: left;
+    position: relative;
+}
+.S-part2-3 dl img{
+    width: 50%;
+    float: right;
+    height: 135px;
+    margin-top: 20px;
+}
+.S-part2-3 dl:hover{
+    animation:changeClear 1s linear 1 both;
+}
+.S-part2-3-dl-1
+{
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+.S-part2-3-dl-2{
+    border-bottom: 1px solid #e5e5e5;
+}
+.S-part2-3-dl-3{
+    border-right: 1px solid #e5e5e5;
+}
+
+.S-part2-3 dl dt{
+    position: absolute;
+    z-index: 3;
+}
+.S-part2-3 dl dt a{
+    display: block;
+    width: 110px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    color: #333333;
+    font-size: 14px;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+
+}
+.S-part2-3 dl dt a:hover{
+    text-decoration: underline;
+}
+.Fix-top{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    border-bottom: 1px solid #e5e5e5;
+    z-index: 444;
+    display: none;
+}
+.Fix-top1{
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+}
+.Fix-top1-L{
+    float: left;
+    width: 230px;
+    height: 50px;
+}
+.Fix-top1-R{
+    margin-top: 6px;
+    float: left;
+    width: 670px;
+    height: 34px;
+    border: 2px solid #151515;
+}
+.Fix-top1-R input{
+    float: left;
+}
+.border-01{
+    width: 600px;
+    border: 0;
+    outline:none;
+    text-indent: 1em;
+    height: 34px;
+}
+.back{
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    width: 50px;
+    height: 80px;
+    display: none;
+    cursor: pointer;
+}

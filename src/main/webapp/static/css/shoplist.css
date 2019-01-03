@@ -1,0 +1,194 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Microsoft YaHei", "微软雅黑", "黑体";
+}
+img{
+    border: none;
+}
+.Menubar{
+    width: 100%;
+}
+.Menubar-1{
+    width: 1200px;
+    height: 20px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.Menubar-1 li{
+    float: left;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}
+.Menubar-1 li a{
+    color: #333;
+}
+.Menubar-1 li i{
+    font-style: normal;
+    font-weight: bold;
+}
+.Menubar-1 li a:hover{
+    color: #f47b2b;
+}
+.Menubar-1 li:last-of-type{
+    float: right;
+    color: #d21f46;
+}
+.Menubar-2{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 5px white;
+}
+.Menubar-2 li{
+    display: block;
+    width: 1200px;
+}
+.Menubar-2 li:after{
+    display:block;
+    clear:both;
+    content:"";
+    visibility:hidden;
+    height:0;
+}
+.menu-L{
+    float: left;
+    width: 100px;
+    background-color: rgb(245,245,245);
+}
+.menu-L p{
+   text-indent: 15px;
+    font-size: 14px;
+    line-height: 35px;
+}
+.menu-R{
+    width: 1100px;
+   float: left;
+   border-bottom: 1px #ededed dashed;
+}
+.menu-R a{
+    padding: 0 10px;
+    line-height: 35px;
+    color: #333333;
+    font-size: 14px;
+}
+.Menubar-3{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: white;
+}
+.Menubar-3:after{
+    display:block;
+    clear:both;
+    content:"";
+    visibility:hidden;
+    height:0;
+}
+.Menubar-3-1{
+    width: 1080px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.Menubar-3-1 dl{
+    float: left;
+    width:266px;
+    height:416px;
+    border:2px solid white;
+}
+.Menubar-3-1 dl dt{
+    width: 240px;
+    height: 304px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ebebeb;
+}
+.Menubar-3-1 dl dt img{
+    width: 175px;
+    height: 240px;
+    margin-top: 30px;
+    margin-left:32.5px;
+}
+.Menubar-3-1 dl dd{
+    width: 240px;
+    height: 112px;
+    margin: 0 auto;
+}
+.Menubar-3-1 dl dd a{
+    display: block;
+    width: 100%;
+    height: 26px;
+    overflow: hidden;
+    font-size: 15px;
+    color: #333333;
+    line-height: 26px;
+    margin-top:10px;
+}
+.Menubar-3-1 dl dd a:hover{
+    text-decoration: underline;
+}
+.Prise{
+    width: 240px;
+    height: 20px;
+    margin-top: 5px;
+}
+.Prise p{
+    float: left;
+    font-size: 13px;
+    color: #d21f46;
+    font-weight: bold;
+}
+.Prise span{
+    float: right;
+    font-size: 12px;
+    color: #999999;
+}
+.addshop{
+    width: 240px;
+    height: 25px;
+    margin-top: 5px;
+    display: none;
+}
+#addshop1{
+    padding: 0 5px;
+    font-size: 14px;
+    display: block;
+    width: 70px;
+    height: 25px;
+    background-color: rgb(233,59,57);
+    text-align: center;
+    line-height: 23px;
+    color: white;
+    text-decoration: none;
+    float: left;
+}
+#addshop1:hover{
+    background-color: rgb(211,34,32);
+}
+.addshop p{
+    float: right;
+    display: block;
+    font-size: 14px;
+    color: #999999;
+    width: 50px;
+    height: 25px;
+    text-align: right;
+    line-height: 25px;
+    background: url("../images/hert.png") no-repeat 10px 8px;
+    cursor: pointer;
+}
+.addshop p:hover{
+    color: red;
+    background-image: url("../images/herthover.png");
+}
+.sorry{
+    width: 1200px;
+    height: 350px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 350px;
+}

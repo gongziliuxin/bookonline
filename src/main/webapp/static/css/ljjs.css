@@ -1,0 +1,525 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,form,img,dl,dt,dd,table,th,td,blockquote,fieldset,div,strong,label,em{margin:0;padding:0;border:0}
+ul,ol,li{list-style:none}
+a{
+    text-decoration: none;
+}
+*{
+    font-family: "Microsoft YaHei", "宋体";
+    outline: none;
+}
+table{border-collapse:collapse;border-spacing:0}
+body{
+    background-color: #f6f6f6;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(51,51,51);
+}
+.header-1{
+    width: 1000px;
+    height: 70px;
+    margin: 0 auto;
+
+}
+.js-part{
+    width: 1002px;
+    margin: 0 auto;
+    border: 1px solid #f1f1f1;
+    margin-top: 30px;
+    background-color: white;
+}
+.js-part1{
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid white;
+}
+.js-part1-header{
+    width: 1000px;
+    height: 40px;
+    background-color: #ececec;
+}
+.js-part1-header p{
+    line-height: 40px;
+    text-indent: 20px;
+    color: #666666;
+    font-size: 14px;
+    font-weight: bold;
+}
+.js-part2{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 600px;
+    /* height: 280px;*/
+    font-size: 14px;
+    padding-bottom: 30px;
+    /*overflow: hidden;*/
+}
+.js-part2 h3{
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #666;
+}
+.js-part2-content{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 30px;
+}
+.js-part2-content span,.js-part2-content p,.js-part2-content input,.js-part2-content .messge{
+    float: left;
+    font-size: 14px;
+}
+.js-part2-content span{
+    line-height: 30px;
+    color: #9d003f;
+}
+.js-part2-content p{
+    line-height: 25px;
+    margin-left: 10px;
+    letter-spacing: 3px;
+}
+.js-part2-content input{
+    width: 133px;
+    height: 20px;
+    margin-left: 15px;
+    border: 1px solid #ccc;
+}
+.messge{
+    margin-left: 20px;
+    line-height: 25px;
+    color: #9d003f;
+}
+#area select {
+    background: transparent;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    height: 30px;
+    margin-left: 10px;
+}
+#area{
+    margin-left: 5px;
+}
+.add-new-address span{
+    float: left;
+    background-color: rgb(209,32,70);
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    position: relative;
+    top: -5px;
+}
+.add-new-address b{
+    font-size: 14px;
+    float: left;
+    color: #333;
+    position: relative;
+    left: 15px;
+    top: -5px;
+}
+.add-new-address p{
+    font-size: 14px;
+    float: left;
+    color: #666;
+    position: relative;
+    left: 30px;
+    top: -5px;
+}
+.add-new-address a{
+    display: block;
+    width: 100px;
+    height: 35px;
+    float: left;
+    background-color: rgb(209,32,70);
+    color: white;
+    text-align: center;
+    line-height: 35px;
+    position: relative;
+    left: 45px;
+    top: -15px;
+}
+.add-detail span{
+    display: block;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 10px;
+    border-bottom:1px solid #ebebeb;
+    color: #333;
+    font-weight: bold;
+    margin-bottom:10px;
+    font-size:20px;
+}
+.add-detail p{
+    line-height: 25px;
+    text-indent: 10px;
+}
+.js-part2-content1{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+    width: 500px;
+    height: 35px;
+}
+.js-part2-content1 span,.js-part2-content1 p,.js-part2-content1 #area{
+    float: left;
+}
+.js-part2-content1 span{
+    color:#9d003f ;
+    line-height: 35px;
+}
+.js-part2-content1 p{
+    line-height: 30px;
+    margin-left: 10px;
+}
+.js-part2-content3{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 500px;
+    height: 30px;
+}
+.js-part2-content3 span,.js-part2-content3 p,.js-part2-content3 input,.js-part2-content3 .messge{
+    float: left;
+    font-size: 14px;
+}
+.js-part2-content3 span{
+    line-height: 30px;
+    color: #9d003f;
+}
+.js-part2-content3 p{
+    line-height: 25px;
+    margin-left: 10px;
+}
+.js-part2-content3 input{
+    width: 290px;
+    height: 20px;
+    margin-left: 15px;
+    border: 1px solid #ccc;
+}
+.chose-adress{
+    display: block;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #666;
+    color: #333;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.hang{
+    margin-bottom: 20px;
+}
+.hang span,
+.hang p{
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+.messge{
+    margin-left: 20px;
+    line-height: 25px;
+    color: #9d003f;
+}
+.js-part2-content4{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 500px;
+    height: 30px;
+}
+.js-part2-content4 span,.js-part2-content4 p,.js-part2-content4 input,.js-part2-content4 .messge{
+    float: left;
+    font-size: 14px;
+}
+.js-part2-content4 span{
+    line-height: 30px;
+    color: #9d003f;
+}
+.js-part2-content4 p{
+    line-height: 25px;
+    margin-left: 10px;
+}
+.js-part2-content4 input{
+    width: 133px;
+    height: 20px;
+    margin-left: 15px;
+    border: 1px solid #ccc;
+}
+.messge{
+    margin-left: 20px;
+    line-height: 25px;
+    color: #9d003f;
+}
+.js-part2 input[type=submit]{
+    width: 110px;
+    height: 30px;
+    border: none;
+    color: #333;
+    border: 1px solid #333;
+    margin-top: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+#youhui{
+    width: 60px;
+    height: 30px;
+    border: none;
+    color: #333;
+    border: 1px solid #333;
+    margin-top: 20px;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.js-part3{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 600px;
+    height: 80px;
+}
+.js-part3 h3{
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #666;
+}
+.js-part3 p{
+    line-height: 30px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.js-part3 input[type=submit]{
+    width: 110px;
+    height: 30px;
+    border: none;
+    color: white;
+    background-color: #9d003f;
+    margin-top: 20px;
+}
+
+.qd{
+    width: 1002px;
+    margin: 0 auto;
+    border: 1px solid #f1f1f1;
+    margin-top: 10px;
+    background-color: white;
+}
+.qd1{
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid white;
+}
+.qd1-header{
+    width: 1000px;
+    height: 40px;
+    background-color: #ececec;
+}
+.qd1-header p{
+    line-height: 40px;
+    text-indent: 20px;
+    color: #666666;
+    font-size: 14px;
+    font-weight: bold;
+}
+.imfor_top div {
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    color: #999;
+}
+.imfor_top{
+    width: 1000px;
+    height: 40px;
+}
+.imfor{
+    width: 1000px;
+    height: 120px;
+}
+.imfor div {
+    color: #999;
+    height: 120px;
+    font-size: 14px;
+    /* padding-top: 30px;*/
+}
+.pices,
+.pices_top {
+    width: 300px;
+    text-align: center;
+}
+.normal-price{
+    text-decoration: line-through;
+}
+.num,
+.num_top {
+    width: 200px;
+    text-align: center;
+}
+.num{
+    line-height: 120px;
+}
+.imfor_top div,
+.imfor div {
+    float: left;
+}
+.pudc,
+.pudc_top {
+    width: 450px;
+    text-align: center;
+}
+.pudc img{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.pudc-content{
+    float: left;
+    width: 330px;
+    height: 120px;
+    margin-left: 10px;
+}
+.pudc-content p{
+    display: block;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.pudc p{
+
+}
+.js-submit{
+    background-color: white;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 10px;
+    position: relative;
+    padding: 20px 0;
+}
+.back-shop{
+    width: 120px;
+    height: 30px;
+    border: 1px solid rgb(233,58,56);
+    position: absolute;
+    left: 20px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+}
+.back-shop a:first-of-type{
+    color: rgb(233,58,56);
+}
+.back-shop:hover{
+    border: 1px solid rgb(211,34,32);
+}
+.back-shop a:first-of-type:hover{
+    color: rgb(211,34,32);
+}
+.num-prise{
+    float: right;
+    margin-right: 20px;
+    top: 10px;
+    font-size: 14px;
+    color: #333;
+    letter-spacing: 2px;
+}
+.num-prise p{
+    text-align: right;
+    line-height: 30px;
+}
+.pay-title{
+    text-align: right;
+    position: relative;
+    right: 0;
+    margin-bottom:10px;
+}
+/*.sub-prise{
+    position: absolute;
+    right: 20px;
+    top: 140px;
+    font-size: 14px;
+    color: #333;
+}*/
+.sub-prise p span{
+    color: rgb(233,58,56);
+    font-size: 28px;
+}
+button{
+    position: absolute;
+    right: 20px;
+    display: block;
+    width: 135px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    border: none;
+    background-color: rgb(233,58,56);
+    cursor: pointer;
+}
+button:hover{
+    background-color:rgb(211,34,32) ;
+}
+.foot-part{
+    width: 1000px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+}
+.bottom-part{
+    width: 100%;
+    height: 160px;
+    margin-top: 50px;
+    background-color: #f6f6f6;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.bottom-part1{
+    width: 1000px;
+    height: 140px;
+    margin: 0 auto;
+    position: relative;
+}
+.bottom-part1 ul li{
+    float: left;
+    font-size: 14px;
+    padding-right: 20px;
+}
+.bottom-part1 ul:first-of-type{
+    margin-top: 30px;
+}
+.bottom-part1 ul:nth-child(3){
+    margin-top: 20px;
+}
+.bottom-part1 ul:last-of-type{
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.bottom-part1 ul:last-of-type li{
+    color: #666666;
+}
+.bottom-part1 ul:last-of-type li:first-of-type{
+    line-height: 30px;
+}
+.bottom-part1 ul li a{
+    text-decoration: none;
+    color: #666666;
+}
+.bottom-part1 ul li a:hover{
+    color: #333;
+}
+.wx-public{
+    position: absolute;
+    top:  0;
+    right: 0;
+}
+.cancle{
+    color: red;
+}

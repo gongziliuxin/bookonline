@@ -1,0 +1,356 @@
+
+.mypurse-part1{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.mypurse-part1-1{
+    float: left;
+    width: 180px;
+    height: 300px;
+    background-color: white;
+    border-top: 2px solid #151515;
+}
+.mypurse-part1-1 h3{
+    font-weight: normal;
+    display: block;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-bottom: 1px solid #ebebeb;
+}
+.mypurse-part1-1 h3 a{
+    color: #333;
+}
+.mypurse-part1-1 li{
+    display: block;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    font-size: 14px;
+    padding-left: 20px;
+}
+.mypurse-part1-1 li a{
+    color: #666;
+}
+.mypurse-part1-1,.active li a:hover{
+    color: #d21f46;
+    text-decoration: underline;
+}
+
+.mypurse-part1-1 ,.active li:first-of-type a{
+    color: #d21f46;
+    font-weight: bold;
+}
+.mypurse-part1-1 li:first-of-type a:hover{
+    text-decoration: none;
+}
+.mypurse-part1-2{
+    width: 950px;
+    float: left;
+    margin-left: 70px;
+    padding-bottom: 30px;
+}
+.ddxx{
+    width: 100%;
+    border: 1px solid #ebebeb;
+    padding-bottom: 30px;
+    text-indent: 20px;
+}
+.ddxx p{
+    text-indent: 20px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #666;
+}
+.spxq_top,
+.spxq{
+    width: 100%;
+}
+.spxq_top div,
+.spxq div{
+    float: left;
+
+}
+.spxq_top{
+    height: 40px;
+    border: 1px solid #ebebeb;
+}
+.spxq{
+    height: 120px;
+    border: 1px solid #ebebeb;
+    border-top: none;
+
+}
+.spxq_top div{
+    line-height: 40px;
+    text-align: center;
+    color: #333;
+}
+.spxq div{
+    line-height: 120px;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+}
+.spxq_top1,.spxq1{
+    width: 550px;
+    position: relative;
+}
+.spxq1 img{
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.spxq1 p{
+    float: left;
+    display: block;
+    width: 360px;
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+    overflow: hidden;
+}
+.spxq_top2,.spxq2{
+    width: 200px;
+}
+.spxq_top3,.spxq3{
+    width: 200px;
+}
+.totle-spxq{
+    width: 100%;
+    height: 180px;
+    border: 1px solid #ebebeb;
+    border-top: none;
+    background-color: rgb(247,247,247);
+}
+.totle-spxq p{
+    line-height: 30px;
+    margin-right: 30px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #333;
+}
+.totle-spxq p span{
+    color: red;
+    font-size: 16px;
+}
+.mypurse-part1-2 h3{
+    font-weight: normal;
+    color: #333;
+    font-size: 16px;
+    display: block;
+    width:  100%;
+    height: 40px;
+    border-bottom: 1px solid #ebebeb;
+    line-height: 40px;
+}
+.totle-spxq-1{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+}
+.totle-spxq-1-L,
+.totle-spxq-1-R{
+    width: 100px;
+    height: 40px;
+    float: left;
+}
+.totle-spxq-1-L{
+    text-align: left;
+}
+.totle-spxq-1-R{
+    text-align: right;
+}
+.mypurse-part1-21{
+    width: 140px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #333;
+}
+.mypurse-part1-21 p{
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-size: 14px;
+}
+.mypurse-part1-22{
+    width: 970px;
+    height: 80px;
+    background-color: white;
+}
+.mypurse-part1-22 ul li{
+    float: left;
+    display: block;
+    width: 80px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.mypurse-part1-22 ul li a{
+    color: #333;
+}
+.mypurse-part1-22 ul li span{
+    color: red;
+}
+/*.mypurse-part1-22 ul li:nth-child(1){
+    border-bottom: 2px solid red;
+}*/
+.purse_top{
+    width:660px;
+    height: 40px;
+    border: 1px solid #ededed;
+
+}
+.purse_top div{
+    color: #333;
+    font-size: 14px;
+    height: 40px;
+    float: left;
+    width:131px;
+    text-align: center;
+    line-height: 40px;
+}
+/*.purse_middle{
+    width: 970px;
+    height: 40px;
+    background-color:#f5f5f5 ;
+    border: 1px solid white;
+}
+.purse_middle p{
+    float: left;
+    line-height: 40px;
+    color: #999;
+    font-size: 14px;
+}
+.purse_middle img{
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.purse_middle p:nth-child(1){
+    margin-left: 20px;
+}
+.purse_middle p:nth-child(2){
+    margin-left: 20px;
+}*/
+.purse{
+    width: 660px;
+    height: 80px;
+    background-color:white ;
+    border: 1px solid #ededed;
+    border-bottom:none;
+}
+.purse:last-child{
+    border-bottom:1px solid #ededed;
+}
+.purse div{
+    float: left;
+    height: 80px;
+    color: #999;
+    font-size: 14px;
+    line-height: 80px;
+    text-align: center;
+}
+.purse_top1,
+.purse1{
+    width: 158px;
+}
+.purse_top2,
+.purse2{
+    width: 100px;
+}
+.purse_top3,
+.purse3{
+    width: 100px;
+}
+.purse_top4,
+.purse4{
+    width: 100px;
+}
+.purse_top5,
+.purse5{
+    width: 100px;
+}
+.purse5 a{
+    color: #999;
+}
+.purse_top6,
+.purse6{
+    width: 200px;
+}
+.purse2,.purse3,.purse4,.purse5,.purse6{
+    text-align: center;
+}
+.purse1 a{
+    color: #999;
+}
+.purse1 a:hover{
+    text-decoration: underline;
+}
+.purse1 a:nth-child(1){
+    float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+    display: block;
+    border: 1px solid #dbdbdb;
+}
+.purse1 img{
+    width: 80px;
+    height: 80px;
+}
+.purse6 a{
+    margin: 0 auto;
+    margin-top: 25px;
+    display: block;
+    width: 75px;
+    height: 25px;
+    background-color: white;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 25px;
+    color: #333;
+}
+.purse6 a:hover{
+    border: 1px solid red;
+    color: red;
+}
+#pur6 a{
+    margin-bottom: 5px;
+}
+#pur6 a:nth-child(1){
+    background-color: red;
+    color: white;
+    border: none;
+}
+#pur6 a:nth-child(3){
+    border: none;
+}
+.wait-pay1{
+    display: block;
+}
+.nextpage{
+    display: block;
+    width: 80px;
+    height: 30px;
+    border: 1px solid #ebebeb;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    color: #333;
+    margin-top: 20px;
+    margin-left: 460px;
+}
+
+.purse_top .purse_top1{
+    width:140px;
+}
+.purse_top .purse_top3{
+    width:130px;
+}
+.purse_top .purse_top4{
+    width:70px;
+}

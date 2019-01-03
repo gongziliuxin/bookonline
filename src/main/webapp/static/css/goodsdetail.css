@@ -1,0 +1,335 @@
+﻿.Menubar{
+    width: 100%;
+   /* background-color: #ededed;*/
+}
+.Menubar-1{
+    width: 1200px;
+    height: 20px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.Menubar-1 li{
+    float: left;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}
+.Menubar-1 li a{
+    color: #333;
+}
+.Menubar-1 li i{
+    font-style: normal;
+}
+.Menubar-1 li a:hover{
+    color: #f47b2b;
+}
+.Menubar-1 li:last-of-type{
+    float: right;
+}
+.Menubar-2{
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+}
+.Menubar-21{
+    width: 600px;
+    float: left;
+}
+.Menubar-21-1{
+    text-align: left;
+    margin-top: 20px;
+    width: 530px;
+    height: 60px;
+    overflow: hidden;
+   border-bottom: 1px dotted #999;
+}
+.Menubar-21-1 p{
+    font-size: 14px;
+    line-height: 30px;
+    color:#999999;
+}
+.Menubar-21-2{
+    width: 530px;
+    height: 180px;
+    border-bottom: 1px dotted #999;
+}
+.Menubar-21-2 p {
+    text-align: left;
+    font-size: 14px;
+    line-height: 25px;
+}
+.Menubar-21-2 p span{
+    margin-right: 20px;
+}
+.Menubar-21-21 li{
+    margin-top: 15px;
+    display: block;
+    width: 530px;
+    overflow: hidden;
+}
+.Menubar-21-21 li p{
+    float: left;
+    display: block;
+}
+.Menubar-21-21 li p:first-of-type{
+    width: 100px;
+    color: #666;
+}
+.Menubar-21-21 li p:last-of-type i{
+    color: rgb(212,34,32);
+    font-style: normal;
+}
+.Menubar-21-21 li p:last-of-type b{
+    font-size: 24px;
+    color: rgb(212,34,32);
+}
+
+.Menubar-21-21 li:nth-child(2) p:last-of-type{
+    color: #888;
+}
+.Menubar-21-21 li:nth-child(3) p:last-of-type{
+    color: #666;
+}
+.Menubar-21-3{
+    width: 530px;
+}
+.Menubar-21-31{
+    width: 530px;
+    height: 50px;
+}
+.Menubar-21-31 p{
+    line-height: 50px;
+    float: left;
+    display: block;
+    width: 100px;
+    font-size: 14px;
+    color: #666;
+    text-align: left;
+}
+.final-price{
+    color: red;
+}
+.normal-price{
+    font-size: 12px;
+    text-decoration: line-through;
+}
+.clickme{
+    float: left;
+    margin-top: 15px;
+}
+.clickme button{
+    text-align: center;
+    line-height: 15px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #999;
+    outline: none;
+    font-size: 20px;
+    color: #333;
+    float: left;
+    font-weight: bold;
+    background-color: rgb(246,246,246);
+}
+.clickme button:hover{
+    background-color:#d21f46 ;
+    border: none;
+    color: white;
+}
+.clickme input{
+    float: left;
+    width: 40px;
+    height: 18px;
+    text-indent: 16px;
+    border: 1px solid #999;
+    border-left: none;
+    border-right: none;
+}
+.Menubar-21-32{
+    width: 500px;
+    margin-top: 20px;
+}
+.Menubar-21-32 a{
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    width: 180px;
+   height: 50px;
+    float: left;
+}
+/*.Menubar-21-32 a:first-of-type{
+    background-color: rgb(233,58,56);
+    color: white;
+    position: relative;
+    left: -20px;
+}*/
+.Menubar-21-32 a:last-of-type{
+    height: 46px;
+    background-color: #d21f46;
+    color:white;
+  /*  margin-left: 20px;*/
+}
+.Menubar-21-32 a:last-of-type:hover{
+   background-color: rgb(245,52,94);
+}
+.fullscreen{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    opacity: 0.8;
+    display: none;
+}
+
+.menu-love{
+    width: 200px;
+    height: 50px;
+   position:absolute;
+    top: 440px;
+    left: 260px;
+}
+.menu-love li{
+    float: left;
+    margin-left: 20px;
+}
+.menu-love li a{
+    font-size: 12px;
+    color: #666;
+    margin-left: 5px;
+}
+.menu-love li:first-of-type:hover .menu-img1{
+    animation:topTob 0.1s linear 2 both ;
+}
+.menu-love li:last-of-type:hover .menu-img2{
+    animation:topTob 0.1s linear 2 both ;
+}
+@keyframes topTob {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-5px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.part-two1{
+    width: 1200px;
+    margin: 0 auto;
+    /*overflow: auto;*/
+}
+  
+.part-two1-1{
+    margin-top: 30px;
+     width: 200px;
+    height: 300px;
+}
+.part-two1-1 li{
+    display: block;
+    margin-bottom: 15px;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(51,51,51);
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+}
+.rently{
+    width: 198px;
+    height: 95px;
+    margin-top: -15px;
+    background-color: white;
+    border: 1px solid #999999;
+    border-top: none;
+}
+.little-pic{
+    float: left;
+    width: 80px;
+    height: 80px;
+
+}
+.little-pic img{
+    width: 80px;
+    height: 80px;
+    transform: scale(0.7);
+}
+.little-content{
+    width: 110px;
+    /*height: 95px;*/
+    margin-top: 10px;
+    float: left;
+
+}
+.little-content a{
+    font-size: 12px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    color: #666;
+}
+.little-content a:last-of-type{
+    font-weight: bold;
+}
+.rently:hover .little-pic img{
+    transform: scale(1);
+}
+.part-two1-2{
+    position: relative;
+    width: 960px;
+    height: 40px;
+    /*float: right;*/
+    margin-top: 30px;
+}
+.part-two1-2 li{
+    display: block;
+    width: 239px;
+    height: 40px;
+    float: left;
+    color: #333;
+    border-right: 1px solid white;
+    background-color: #f8f8f8;
+    cursor: pointer;
+    border-top: 2px solid #f8f8f8;
+}
+.part-two1-2 li span{
+    text-align: center;
+    display: block;
+    width: 239px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+
+}
+.part-two1-2 li span:nth-child(4){
+    width: 240px;
+    border-right: none;
+}
+.part-two1-2 li:nth-child(1){
+   background-color: white;
+   border-top: 2px solid #d21f46;
+}
+.table-menu{
+    top: 40px;
+    width: 960px;
+    background-color: white;
+    display: none;
+}
+.details{
+    font-size:12px;
+    color:#666666;
+    line-height:27px;
+}
+.details p{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: "宋体";
+    font-size: 12px;
+    color: #666;
+}

@@ -1,0 +1,91 @@
+﻿.all-content{
+	width: 100%;
+	height: 660px;
+	background-color: rgb(253,248,244);
+}
+.r-content{
+	width: 1200px;
+	height: 660px;
+	margin: 0 auto;
+}
+.register{
+	width: 540px;
+	height:500px;
+	background-color: white;
+	float: right;
+	margin-top: 50px;
+	margin-right: 30px;
+	box-shadow: 0 0 5px #999;
+}
+.r-content-l{
+	width: 400px;
+	height: 600px;
+	float: left;
+	margin-left:180px;
+	margin-top: 30px;
+}
+.r-content-l img{
+	width: 400px;
+	height:600px;
+}
+input{
+	width: 300px;
+	height: 40px;
+	outline: none;
+	margin-top: 30px;
+	margin-left: 10px;
+	border: 1px solid #999;
+}
+input[type=text],input[type=password],input[type=vcode]{
+	text-indent: 20px;
+	letter-spacing: 3px;
+}
+.submit-inline{
+	margin-top: 30px;
+	width: 302px;
+	height: 40px;
+	background-color: rgb(227,20,54);
+	margin-left: 100px;
+}
+.submit-inline a{
+	display: block;
+	letter-spacing: 3px;
+	color: white;
+	width: 302px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+.go-login{
+	margin-top: 30px;
+}
+.go-login a{
+	font-size: 14px;
+	margin-left: 100px;
+	color: rgb(227,20,54);
+}
+#J_send{
+	display: block;
+	width: 120px;
+	height: 40px;
+	border: 1px solid #999;
+	float: right;
+	margin-top: 30px;
+	margin-right: 5px;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.input-inline p{
+	font-size: 14px;
+	margin-left: 10px;
+	display: block;
+	height: 40px;
+	width: 80px;
+	margin-top: 30px;
+	float: left;
+	text-align: right;
+	line-height: 40px;
+	color: #777;
+}

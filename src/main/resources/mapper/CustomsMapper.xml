@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.java.dao.CustomsMapper">
+  <resultMap id="BaseResultMap" type="com.java.bean.Customs">
+    <result column="c_id" jdbcType="INTEGER" property="cId" />
+    <result column="c_tel" jdbcType="VARCHAR" property="cTel" />
+    <result column="c_pw" jdbcType="VARCHAR" property="cPw" />
+    <result column="c_nickname" jdbcType="VARCHAR" property="cNickname" />
+    <result column="c_name" jdbcType="VARCHAR" property="cName" />
+    <result column="c_mail" jdbcType="VARCHAR" property="cMail" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    c_id, c_tel, c_pw, c_nickname, c_name, c_mail
+  </sql>
+    <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List" />
+        from customs
+        where c_id = #{cId,jdbcType=INTEGER}
+    </select>
+    <select id="selectByTel" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List" />
+        from customs
+        where c_tel = #{cTel,jdbcType=CHAR}
+    </select>
+    <select id="selectByName" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List" />
+        from customs
+        where c_name = #{cName,jdbcType=CHAR}
+    </select>
+    <select id="selectByNickname" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List" />
+        from customs
+        where c_nickname = #{cNickname,jdbcType=CHAR}
+    </select>
+  <select id="selectByExample" parameterType="com.java.bean.CustomsExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from customs
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+        delete from customs
+        where c_id = #{cId,jdbcType=INTEGER}
+    </delete>
+  <delete id="deleteByExample" parameterType="com.java.bean.CustomsExample">
+    delete from customs
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.java.bean.Customs">
+    insert into customs (c_id, c_tel, c_pw, 
+      c_nickname, c_name, c_mail
+      )
+    values (#{cId,jdbcType=INTEGER}, #{cTel,jdbcType=VARCHAR}, #{cPw,jdbcType=VARCHAR}, 
+      #{cNickname,jdbcType=VARCHAR}, #{cName,jdbcType=VARCHAR}, #{cMail,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.java.bean.Customs">
+    insert into customs
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="cId != null">
+        c_id,
+      </if>
+      <if test="cTel != null">
+        c_tel,
+      </if>
+      <if test="cPw != null">
+        c_pw,
+      </if>
+      <if test="cNickname != null">
+        c_nickname,
+      </if>
+      <if test="cName != null">
+        c_name,
+      </if>
+      <if test="cMail != null">
+        c_mail,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="cId != null">
+        #{cId,jdbcType=INTEGER},
+      </if>
+      <if test="cTel != null">
+        #{cTel,jdbcType=VARCHAR},
+      </if>
+      <if test="cPw != null">
+        #{cPw,jdbcType=VARCHAR},
+      </if>
+      <if test="cNickname != null">
+        #{cNickname,jdbcType=VARCHAR},
+      </if>
+      <if test="cName != null">
+        #{cName,jdbcType=VARCHAR},
+      </if>
+      <if test="cMail != null">
+        #{cMail,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.java.bean.CustomsExample" resultType="java.lang.Long">
+    select count(*) from customs
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update customs
+    <set>
+      <if test="record.cId != null">
+        c_id = #{record.cId,jdbcType=INTEGER},
+      </if>
+      <if test="record.cTel != null">
+        c_tel = #{record.cTel,jdbcType=VARCHAR},
+      </if>
+      <if test="record.cPw != null">
+        c_pw = #{record.cPw,jdbcType=VARCHAR},
+      </if>
+      <if test="record.cNickname != null">
+        c_nickname = #{record.cNickname,jdbcType=VARCHAR},
+      </if>
+      <if test="record.cName != null">
+        c_name = #{record.cName,jdbcType=VARCHAR},
+      </if>
+      <if test="record.cMail != null">
+        c_mail = #{record.cMail,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update customs
+    set c_id = #{record.cId,jdbcType=INTEGER},
+      c_tel = #{record.cTel,jdbcType=VARCHAR},
+      c_pw = #{record.cPw,jdbcType=VARCHAR},
+      c_nickname = #{record.cNickname,jdbcType=VARCHAR},
+      c_name = #{record.cName,jdbcType=VARCHAR},
+      c_mail = #{record.cMail,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+    <update id="updateByPrimaryKeySelective" parameterType="com.java.bean.Customs">
+        update customs
+        <set>
+            <if test="cName != null">
+            c_name = #{cName,jdbcType=VARCHAR},
+        </if>
+            <if test="cTel != null">
+                c_tel = #{cTel,jdbcType=VARCHAR},
+            </if>
+            <if test="cPw != null">
+                c_pw = #{cPw,jdbcType=VARCHAR},
+            </if>
+            <if test="cNickname != null">
+                c_nickname = #{cNickname,jdbcType=VARCHAR},
+            </if>
+            <if test="cMail != null">
+                c_mail = #{cMail,jdbcType=VARCHAR},
+            </if>
+
+        </set>
+        where c_id = #{cId,jdbcType=INTEGER}
+    </update>
+    <update id="updateByPrimaryKey" parameterType="com.java.bean.Customs">
+        update customs
+        set c_name = #{cName,jdbcType=VARCHAR},
+        c_nickname = #{cNickname,jdbcType=VARCHAR},
+        c_pw = #{cPw,jdbcType=VARCHAR},
+        c_tel = #{cTel,jdbcType=VARCHAR},
+        c_mail = #{cMail,jdbcType=VARCHAR}
+        where c_id = #{cId,jdbcType=INTEGER}
+    </update>
+</mapper>

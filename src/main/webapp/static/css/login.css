@@ -1,0 +1,110 @@
+﻿.all-content{
+	width: 100%;
+	height: 660px;
+	background-color: rgb(253,248,244);
+}
+.r-content{
+	width: 1200px;
+	height: 660px;
+	margin: 0 auto;
+}
+.register{
+	width: 500px;
+	height:500px;
+	background-color: white;
+	float: right;
+	margin-top: 50px;
+	margin-right: 30px;
+	box-shadow: 0 0 5px #999;
+}
+.r-content-l{
+	width: 400px;
+	height: 600px;
+	float: left;
+	margin-left:200px;
+	margin-top: 30px;
+}
+.r-content-l img{
+	width: 400px;
+	height:600px;
+}
+.l-header{
+	width: 300px;
+	height: 60px;
+	margin: 0 auto;
+}
+.l-header p{
+	text-align: center;
+	line-height: 60px;
+	color: rgb(227,20,54);
+	font-size: 22px;
+}
+input[type=text],input[type=password]{
+	width: 300px;
+	height: 40px;
+	outline: none;
+	margin-top: 30px;
+	margin-left: 10px;
+	text-indent: 20px;
+	border: 1px solid #999;
+}
+.submit-inline{
+	margin-top: 40px;
+	width: 302px;
+	height: 40px;
+	background-color: rgb(227,20,54);
+	margin-left: 120px;
+}
+.submit-inline a{
+	display: block;
+	width: 302px;
+	height: 40px;
+	letter-spacing: 3px;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+}
+.go-login{
+	font-size: 14px;
+	margin-top: 25px;
+	margin-left: 300px;
+}
+.remember-p{
+	margin-top: 30px;
+}
+/*.remember-p a:nth-child(1){
+	margin-left: 120px;
+	font-size: 14px;
+	margin-top: 30px;
+	color: #333;
+}
+.remember-p a:nth-child(2){
+	margin-left: 200px;
+	font-size: 14px;
+	margin-top: 30px;
+	color: #333;
+}*/
+.forget-password{
+	margin-left: 120px;
+	font-size: 14px;
+	margin-top: 30px;
+	color: #333;
+}
+.reg-password{
+	margin-left: 200px;
+	font-size: 14px;
+	margin-top: 30px;
+	color: #333;
+}
+.input-inline p{
+	font-size: 14px;
+	margin-left: 30px;
+	display: block;
+	height: 40px;
+	width: 80px;
+	margin-top: 30px;
+	float: left;
+	text-align: right;
+	line-height: 40px;
+	color: #777;
+}

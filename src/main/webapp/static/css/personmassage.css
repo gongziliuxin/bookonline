@@ -1,0 +1,176 @@
+
+.mypurse-part1{
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.mypurse-part1-1{
+    float: left;
+    width: 180px;
+    height: 300px;
+    background-color: white;
+    border-top: 2px solid #151515;
+}
+.mypurse-part1-1 h3{
+    font-weight: normal;
+    display: block;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-bottom: 1px solid #ebebeb;
+}
+.mypurse-part1-1 h3 a{
+    color: #333;
+}
+.mypurse-part1-1 li{
+    padding-left: 10px;
+    font-size: 14px;
+    display: block;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+}
+.mypurse-part1-1 li a{
+    color: #666;
+}
+.mypurse-part1-1 li a:hover{
+    color: #d21f46;
+    text-decoration: underline;
+}
+.mypurse-part1-1 li:nth-child(3) a{
+    color: #d21f46;
+    font-weight: bold;
+}
+.mypurse-part1-1 li:nth-child(3) a:hover{
+    text-decoration: none;
+}
+.mypurse-part1-2{
+    width: 960px;
+    height: 450px;
+    float: left;
+    margin-left: 50px;
+}
+.myaccount-heade{
+    height: 30px;
+    width: 140px;
+    margin-left: 30px;
+    background-color: #333;
+}
+.myaccount-heade p{
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    color: white;
+}
+.per-detail{
+    width: 800px;
+    height: 400px;
+    margin-left: 30px;
+    border: 1px solid #dddddd;
+    position: relative;
+}
+.per-detail1{
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 40px;
+
+}
+.form-1{
+    width: 500px;
+    height: 40px;
+    font-size: 14px;
+    border: 1px solid #dddddd;
+    border-bottom:none;
+}
+.form-1:last-child{
+    border-bottom:1px solid #dddddd;
+}
+.form-L{
+    width: 100px;
+    height: 40px;
+    float: left;
+}
+.form-L p{
+    text-align: center;
+    line-height: 40px;
+}
+.form-R{
+    width: 390px;
+    height: 40px;
+    float: right;
+}
+.form-R p{
+    line-height: 40px;
+    font-weight: bold;
+}
+.form-R input[type=radio]{
+    margin-top: 15px;
+}
+.form-R input[type=date]{
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 140px;
+    border: 1px solid #dddddd;
+}
+#felmal{
+    position: relative;
+    top: 10px;
+}
+.form-R span,.form-R a{
+    line-height: 40px;
+}
+.form-R a{
+    margin-left: 10px;
+    color: #666666;
+}
+#area select {
+    background: transparent;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    height: 25px;
+    margin-right: 5px;
+}
+#area{
+    margin-top: 8px;
+}
+.form-R input[type=text]{
+    margin-top: 10px;
+    width: 140px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+.form-1 input[type=submit]{
+    width: 50px;
+    height: 16px;
+    border-radius: 5px;
+    margin-left: 110px;
+    line-height: 16px;
+}
+.update-img{
+    width: 120px;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    cursor: pointer;
+}
+.update-img p{
+    text-align: center;
+}
+.update-img img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.full-black{
+    position: fixed;
+    top: 0;
+    z-index: 222;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.8;
+    display: none;
+}
